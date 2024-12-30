@@ -10,12 +10,6 @@ A Streamlit-based chat interface that leverages X.AI's Grok model for interactiv
 - System prompt customization
 - Grok Vision Beta model integration
 
-## Installation
-
-```bash
-pip install -r requirements.txt
-```
-
 ## Required Dependencies
 
 - streamlit
@@ -30,18 +24,6 @@ Create a `.env` file in the root directory:
 XAI_API_KEY=your_xai_api_key_here
 ```
 
-## Usage
-
-1. Start the application:
-```bash
-streamlit run app.py
-```
-
-2. Enter your question in the chat input
-3. Receive streamed responses from Grok
-4. View chat history from previous interactions
-
-```
 
 ## Features Breakdown
 
